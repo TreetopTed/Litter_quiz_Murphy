@@ -14,7 +14,8 @@ def print_dash_line():
 
 
 def intro():
-    print("Welcome to the quiz")
+    welcome = "Welcome to the quiz"
+    print(welcome)
     name = input("What is your name?:  ")
     start = input("Would you like to begin the quiz {}? Y or N?:   ".format(name))
     if start == "yes" or start == "Yes" or start == "Y" or start == "y":
